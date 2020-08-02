@@ -39,7 +39,7 @@ def climbingLeaderboard(scores, alice):
 def main():
     score = list()
     alice = list()
-    file_pointer = open(".dist/input.txt",'r')
+    file_pointer = open("input.txt",'r')
     
     # For the scoreboard
     length_of_scores = int(file_pointer.readline())
